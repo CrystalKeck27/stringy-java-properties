@@ -1,0 +1,25 @@
+{
+  "name": "stringy-java-properties",
+  "version": "0.0.0",
+  "description": "A parser/stringifier for .properties files with typescript support.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
+  },
+  "keywords": [
+    "properties"
+  ],
+  "author": "Crystal",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
